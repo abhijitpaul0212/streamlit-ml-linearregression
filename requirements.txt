@@ -8,3 +8,4 @@ xlwings==0.27.10
 configparser==5.2.0
 streamlit==1.10.0
 shap==0.40.0
+plotly==5.4.0
