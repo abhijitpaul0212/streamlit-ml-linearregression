@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns # Seaborn is a Python data visualization library based on matplotlib.
 
 
-df_USAhousing = pd.read_csv('../USA_Housing_toy.csv')
+df_USAhousing = pd.read_csv('USA_Housing_toy.csv')
 
 df_USAhousing.head()
 
