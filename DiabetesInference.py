@@ -33,7 +33,7 @@ st.write('**BMI** -  Body mass index (weight in kg/(height in m)^2)')
 st.write('**DiabetesPedigreeFunction** - Diabetes pedigree function')
 st.write('**Age** -  Age (years)')
 
-diabetes = pd.read_csv('data/diabetes.csv')
+diabetes = pd.read_csv('diabetes.csv')
 st.write(diabetes)
 
 sc_X = StandardScaler()
